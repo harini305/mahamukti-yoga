@@ -1,0 +1,5 @@
+# Upload only what the Next.js build needs.
+docs/
+assets-source/
+scripts/
+*.md

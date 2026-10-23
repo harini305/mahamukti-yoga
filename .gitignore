@@ -1,0 +1,15 @@
+# dependencies and build output
+node_modules/
+.next/
+out/
+*.log
+
+# local environment / deployment metadata
+.env*
+.vercel
+
+# large local-only inputs (kept on disk, not committed)
+# - originals are re-downloadable from docs/source-audit/04-assets-manifest.csv
+# - audit screenshots are research evidence, not part of the site
+assets-source/
+docs/source-audit/screenshots/

@@ -1,0 +1,142 @@
+/* Hero */
+.hero { padding-block: var(--section); }
+.heroGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+  column-gap: var(--split-gap);
+  row-gap: 2.5rem;
+  align-items: center;
+}
+.title {
+  font-size: var(--fs-display);
+  line-height: 0.98;
+  margin-bottom: 1.75rem;
+}
+.title span { display: inline-block; }
+.heroGrid .lead { max-width: 44ch; margin-bottom: 1.25rem; }
+.heroGrid p:not(.lead) { max-width: 52ch; }
+.heroImage { aspect-ratio: 4 / 5; }
+@media (max-width: 860px) {
+  .heroGrid { grid-template-columns: 1fr; }
+  .heroImage { aspect-ratio: 16 / 10; }
+}
+@media (max-width: 400px) { .title span { display: inline; } }
+
+/* Stats */
+.stats { border-block: 1px solid var(--line); background: var(--white); }
+.statList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0;
+}
+.statList div { padding: 2.25rem 2rem 2.25rem 0; }
+.statList div + div { padding-left: 2rem; border-left: 1px solid var(--line); }
+.statList dt {
+  font-family: var(--serif);
+  font-size: clamp(2rem, 1.5rem + 1.6vw, 3.25rem);
+  white-space: nowrap;
+  line-height: 1;
+  color: var(--ink);
+  margin-bottom: 0.6rem;
+  font-variant-numeric: tabular-nums;
+}
+.statList dd { margin: 0; font-size: 0.925rem; max-width: 30ch; }
+@media (max-width: 900px) {
+  .statList { grid-template-columns: 1fr; }
+  .statList div,
+  .statList div + div {
+    display: grid;
+    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    column-gap: var(--split-gap);
+    align-items: baseline;
+    padding: 1.35rem 0;
+    border-left: 0;
+  }
+  .statList div + div { border-top: 1px solid var(--line); }
+  .statList dt { margin-bottom: 0; }
+}
+@media (max-width: 480px) {
+  .statList div,
+  .statList div + div { grid-template-columns: 1fr; row-gap: 0.4rem; padding: 1.15rem 0; }
+}
+
+/* Reasons */
+.reasons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: clamp(2rem, 1rem + 2.5vw, 4rem);
+}
+/* Each card spans three shared rows (image, title, text) so titles and text line up across cards. */
+.reasons li {
+  display: grid;
+  grid-row: span 3;
+  grid-template-rows: subgrid;
+  row-gap: 0;
+}
+.reasons h3 { margin: 1.5rem 0 0.75rem; }
+.reasons p { font-size: 0.975rem; }
+@media (max-width: 860px) {
+  .reasons { grid-template-columns: 1fr; gap: 0; }
+  .reasons li {
+    display: grid;
+    grid-row: auto;
+    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    grid-template-rows: auto 1fr;
+    column-gap: var(--split-gap);
+    padding-block: 1.75rem;
+    border-top: 1px solid var(--line);
+  }
+  .reasons li:last-child { border-bottom: 1px solid var(--line); }
+  .reasons li > :first-child { grid-row: 1 / 3; }
+  .reasons h3 { margin: 0 0 0.6rem; }
+}
+@media (max-width: 520px) {
+  .reasons li { grid-template-columns: 1fr; grid-template-rows: none; }
+  .reasons li > :first-child { grid-row: auto; }
+  .reasons h3 { margin-top: 1.25rem; }
+}
+
+/* Teacher */
+.teacher {
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  column-gap: var(--split-gap);
+  row-gap: 2.5rem;
+  align-items: start;
+}
+.teacherMedia { position: relative; padding-bottom: 4rem; }
+.teacherMain { width: 88%; }
+.teacherArchive {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 42%;
+  margin: 0;
+  padding: 6px 6px 0;
+  background: var(--sand);
+}
+.teacherText { max-width: 600px; }
+.teacherText h2 { font-size: var(--fs-h1); }
+.role {
+  margin: 0.6rem 0 1.75rem;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 1.3rem;
+  color: var(--ink);
+}
+.philosophyTitle { margin: 2.5rem 0 0.75rem; }
+.quote {
+  margin: 2rem 0;
+  padding-left: 1.5rem;
+  border-left: 1px solid var(--red);
+}
+.quote p {
+  font-family: var(--serif);
+  font-size: clamp(1.5rem, 1.25rem + 1vw, 2rem);
+  line-height: 1.25;
+  color: var(--ink);
+}
+@media (max-width: 860px) {
+  .teacher { grid-template-columns: 1fr; }
+  .teacherMedia { max-width: 520px; }
+}

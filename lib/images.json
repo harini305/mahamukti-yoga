@@ -1,0 +1,204 @@
+{
+  "hero-shala": {
+    "alt": "Open-air yoga shala in Ubud with a mandala of red and violet flowers laid on the wooden floor",
+    "width": 1200,
+    "height": 1600,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "source": "WhatsApp-Image-2026-02-02-at-17.40.58-1.jpeg"
+  },
+  "shala-meditation": {
+    "alt": "A student meditating in the open-air jungle shala beside flower offerings",
+    "width": 1200,
+    "height": 1600,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "source": "WhatsApp-Image-2026-02-02-at-17.40.58.jpeg"
+  },
+  "group-shala": {
+    "alt": "Retreat group standing together in the yoga shala with a tropical garden behind them",
+    "width": 1600,
+    "height": 1200,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "source": "WhatsApp-Image-2026-02-02-at-17.40.42.jpeg"
+  },
+  "tirta-empul": {
+    "alt": "Students taking part in a water purification ritual at a Balinese temple spring",
+    "width": 800,
+    "height": 551,
+    "widths": [
+      480,
+      800
+    ],
+    "source": "gallery-5.jpg"
+  },
+  "temple-blessing": {
+    "alt": "Students in traditional sarongs kneeling for a temple blessing",
+    "width": 800,
+    "height": 551,
+    "widths": [
+      480,
+      800
+    ],
+    "source": "gallery-4.jpg"
+  },
+  "temple-gate": {
+    "alt": "Akhilesh Bodhi and students in sarongs at a carved Balinese temple gateway",
+    "width": 1024,
+    "height": 805,
+    "widths": [
+      480,
+      800,
+      1024
+    ],
+    "source": "gal-15.webp"
+  },
+  "akhilesh-garden": {
+    "alt": "Akhilesh Bodhi seated in a garden, one hand resting in a meditation mudra",
+    "width": 600,
+    "height": 673,
+    "widths": [
+      480,
+      600
+    ],
+    "source": "yoga-teacher-akhilesh.webp"
+  },
+  "akhilesh-white": {
+    "alt": "Akhilesh Bodhi in white clothing, kneeling with palms joined",
+    "width": 995,
+    "height": 670,
+    "widths": [
+      480,
+      800,
+      995
+    ],
+    "source": "yoga-trainer-akhilesh-bodhi.jpg"
+  },
+  "akhilesh-guru": {
+    "alt": "A young Akhilesh Bodhi sitting beside his yoga guru",
+    "width": 559,
+    "height": 619,
+    "widths": [
+      480,
+      559
+    ],
+    "source": "yogi-akhilesh-with-yoga-guru.webp"
+  },
+  "class-openair": {
+    "alt": "Students holding a lunge in an open-air shala framed by palm trees",
+    "width": 1024,
+    "height": 731,
+    "widths": [
+      480,
+      800,
+      1024
+    ],
+    "source": "gal-10.webp"
+  },
+  "class-shala": {
+    "alt": "Students practising on purple mats in a wooden shala",
+    "width": 1024,
+    "height": 787,
+    "widths": [
+      480,
+      800,
+      1024
+    ],
+    "source": "gal-3.webp"
+  },
+  "class-adjust": {
+    "alt": "A teacher guiding a student's balance in a thatched-roof shala",
+    "width": 838,
+    "height": 491,
+    "widths": [
+      480,
+      800,
+      838
+    ],
+    "source": "gal-5.webp"
+  },
+  "study": {
+    "alt": "Trainees writing notes during a teacher training session",
+    "width": 700,
+    "height": 467,
+    "widths": [
+      480,
+      700
+    ],
+    "source": "gallery-2-1.jpg"
+  },
+  "circle-garden": {
+    "alt": "Students sitting in a circle in a garden for a group discussion",
+    "width": 1024,
+    "height": 731,
+    "widths": [
+      480,
+      800,
+      1024
+    ],
+    "source": "gal-6.webp"
+  },
+  "ceremony": {
+    "alt": "Students at the opening fire ceremony of a teacher training course",
+    "width": 800,
+    "height": 551,
+    "widths": [
+      480,
+      800
+    ],
+    "source": "gallery-7.jpg"
+  },
+  "pool-garden": {
+    "alt": "Swimming pool surrounded by palms and tropical planting at the retreat",
+    "width": 800,
+    "height": 551,
+    "widths": [
+      480,
+      800
+    ],
+    "source": "gallery-6.jpg"
+  },
+  "aerial": {
+    "alt": "Aerial view of a retreat set among rice fields and jungle near Ubud",
+    "width": 950,
+    "height": 661,
+    "widths": [
+      480,
+      800,
+      950
+    ],
+    "source": "osho-retreat-1.jpg"
+  },
+  "veranda": {
+    "alt": "Shaded veranda with wooden chairs looking out over the jungle",
+    "width": 950,
+    "height": 661,
+    "widths": [
+      480,
+      800,
+      950
+    ],
+    "source": "osho-retreat-6.jpg"
+  },
+  "smiles": {
+    "alt": "A student and Akhilesh Bodhi smiling together outdoors in Bali",
+    "width": 700,
+    "height": 467,
+    "widths": [
+      480,
+      700
+    ],
+    "source": "gallery-4-1.jpg"
+  }
+}
